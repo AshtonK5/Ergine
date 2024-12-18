@@ -1,0 +1,5 @@
+C:\Users\ashto\Desktop\Ergine\src\tools\BuildTool\bin\Debug\net8.0\publish\BuildTool.exe
+C:\Users\ashto\Desktop\Ergine\src\tools\BuildTool\bin\Debug\net8.0\publish\BuildTool.dll
+C:\Users\ashto\Desktop\Ergine\src\tools\BuildTool\bin\Debug\net8.0\publish\BuildTool.deps.json
+C:\Users\ashto\Desktop\Ergine\src\tools\BuildTool\bin\Debug\net8.0\publish\BuildTool.runtimeconfig.json
+C:\Users\ashto\Desktop\Ergine\src\tools\BuildTool\bin\Debug\net8.0\publish\BuildTool.pdb

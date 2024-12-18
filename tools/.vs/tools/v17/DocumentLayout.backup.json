@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ashto\\Desktop\\Ergine\\tools\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{54B3EC0B-D2DE-40D8-BB0B-DE13B456A30C}|BuildTool\\BuildTool.csproj|c:\\users\\ashto\\desktop\\ergine\\tools\\buildtool\\buildtool.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{54B3EC0B-D2DE-40D8-BB0B-DE13B456A30C}|BuildTool\\BuildTool.csproj|solutionrelative:buildtool\\buildtool.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54B3EC0B-D2DE-40D8-BB0B-DE13B456A30C}|BuildTool\\BuildTool.csproj|c:\\users\\ashto\\desktop\\ergine\\tools\\buildtool\\src\\buildtoolstartup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54B3EC0B-D2DE-40D8-BB0B-DE13B456A30C}|BuildTool\\BuildTool.csproj|solutionrelative:buildtool\\src\\buildtoolstartup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BuildTool",
+              "DocumentMoniker": "C:\\Users\\ashto\\Desktop\\Ergine\\tools\\BuildTool\\BuildTool.csproj",
+              "RelativeDocumentMoniker": "BuildTool\\BuildTool.csproj",
+              "ToolTip": "C:\\Users\\ashto\\Desktop\\Ergine\\tools\\BuildTool\\BuildTool.csproj",
+              "RelativeToolTip": "BuildTool\\BuildTool.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-18T04:53:51.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BuildToolStartup.cs",
+              "DocumentMoniker": "C:\\Users\\ashto\\Desktop\\Ergine\\tools\\BuildTool\\src\\BuildToolStartup.cs",
+              "RelativeDocumentMoniker": "BuildTool\\src\\BuildToolStartup.cs",
+              "ToolTip": "C:\\Users\\ashto\\Desktop\\Ergine\\tools\\BuildTool\\src\\BuildToolStartup.cs",
+              "RelativeToolTip": "BuildTool\\src\\BuildToolStartup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T12:21:15.584Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
