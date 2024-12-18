@@ -1,0 +1,6 @@
+C:\Users\ashto\dev\projects\cs\Ergine\src\Engine\obj\Debug\net9.0\Engine.csproj.AssemblyReference.cache
+C:\Users\ashto\dev\projects\cs\Ergine\src\Engine\obj\Debug\net9.0\Engine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashto\dev\projects\cs\Ergine\src\Engine\obj\Debug\net9.0\Engine.AssemblyInfoInputs.cache
+C:\Users\ashto\dev\projects\cs\Ergine\src\Engine\obj\Debug\net9.0\Engine.AssemblyInfo.cs
+C:\Users\ashto\dev\projects\cs\Ergine\src\Engine\obj\Debug\net9.0\Engine.csproj.CoreCompileInputs.cache
+C:\Users\ashto\dev\projects\cs\Ergine\src\Engine\obj\Debug\net9.0\Engine.sourcelink.json

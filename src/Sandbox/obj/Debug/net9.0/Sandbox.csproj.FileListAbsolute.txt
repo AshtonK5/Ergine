@@ -1,0 +1,15 @@
+C:\Users\ashto\dev\projects\cs\Ergine\binaries\Debug\net9.0\Sandbox.exe
+C:\Users\ashto\dev\projects\cs\Ergine\binaries\Debug\net9.0\Sandbox.deps.json
+C:\Users\ashto\dev\projects\cs\Ergine\binaries\Debug\net9.0\Sandbox.runtimeconfig.json
+C:\Users\ashto\dev\projects\cs\Ergine\binaries\Debug\net9.0\Sandbox.dll
+C:\Users\ashto\dev\projects\cs\Ergine\binaries\Debug\net9.0\Sandbox.pdb
+C:\Users\ashto\dev\projects\cs\Ergine\src\Sandbox\obj\Debug\net9.0\Sandbox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashto\dev\projects\cs\Ergine\src\Sandbox\obj\Debug\net9.0\Sandbox.AssemblyInfoInputs.cache
+C:\Users\ashto\dev\projects\cs\Ergine\src\Sandbox\obj\Debug\net9.0\Sandbox.AssemblyInfo.cs
+C:\Users\ashto\dev\projects\cs\Ergine\src\Sandbox\obj\Debug\net9.0\Sandbox.csproj.CoreCompileInputs.cache
+C:\Users\ashto\dev\projects\cs\Ergine\src\Sandbox\obj\Debug\net9.0\Sandbox.sourcelink.json
+C:\Users\ashto\dev\projects\cs\Ergine\src\Sandbox\obj\Debug\net9.0\Sandbox.dll
+C:\Users\ashto\dev\projects\cs\Ergine\src\Sandbox\obj\Debug\net9.0\refint\Sandbox.dll
+C:\Users\ashto\dev\projects\cs\Ergine\src\Sandbox\obj\Debug\net9.0\Sandbox.pdb
+C:\Users\ashto\dev\projects\cs\Ergine\src\Sandbox\obj\Debug\net9.0\Sandbox.genruntimeconfig.cache
+C:\Users\ashto\dev\projects\cs\Ergine\src\Sandbox\obj\Debug\net9.0\ref\Sandbox.dll
