@@ -4,3 +4,10 @@ C:\Users\ashto\dev\projects\cs\Ergine\src\Engine\obj\Debug\net9.0\Engine.Assembl
 C:\Users\ashto\dev\projects\cs\Ergine\src\Engine\obj\Debug\net9.0\Engine.AssemblyInfo.cs
 C:\Users\ashto\dev\projects\cs\Ergine\src\Engine\obj\Debug\net9.0\Engine.csproj.CoreCompileInputs.cache
 C:\Users\ashto\dev\projects\cs\Ergine\src\Engine\obj\Debug\net9.0\Engine.sourcelink.json
+C:\Users\ashto\dev\projects\cs\Ergine\binaries\Debug\net9.0\Engine.deps.json
+C:\Users\ashto\dev\projects\cs\Ergine\binaries\Debug\net9.0\Engine.dll
+C:\Users\ashto\dev\projects\cs\Ergine\binaries\Debug\net9.0\Engine.pdb
+C:\Users\ashto\dev\projects\cs\Ergine\src\Engine\obj\Debug\net9.0\Engine.dll
+C:\Users\ashto\dev\projects\cs\Ergine\src\Engine\obj\Debug\net9.0\refint\Engine.dll
+C:\Users\ashto\dev\projects\cs\Ergine\src\Engine\obj\Debug\net9.0\Engine.pdb
+C:\Users\ashto\dev\projects\cs\Ergine\src\Engine\obj\Debug\net9.0\ref\Engine.dll
