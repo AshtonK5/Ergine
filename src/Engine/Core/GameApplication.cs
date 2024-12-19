@@ -57,10 +57,10 @@ public class GameApplication : Application<GameApplication>
 
         VertexPositionColor[] quadVertices =
         {
-            new VertexPositionColor(new Vector2(-.75f, .75f), RgbaFloat.Red),
-            new VertexPositionColor(new Vector2(.75f, .75f), RgbaFloat.Green),
+            new VertexPositionColor(new Vector2(-.75f,  .75f), RgbaFloat.Red),
+            new VertexPositionColor(new Vector2( .75f,  .75f), RgbaFloat.Green),
             new VertexPositionColor(new Vector2(-.75f, -.75f), RgbaFloat.Blue),
-            new VertexPositionColor(new Vector2(.75f, -.75f), RgbaFloat.Yellow),
+            new VertexPositionColor(new Vector2( .75f, -.75f), RgbaFloat.Yellow),
         };
 
         ushort[] quadIndices = { 0, 1, 2, 3 };
