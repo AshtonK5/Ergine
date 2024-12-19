@@ -92,7 +92,6 @@ public class GameApplication : Application<GameApplication>
         );
 
         GraphicsPipelineDescription pipelineDescription = new GraphicsPipelineDescription();
-        pipelineDescription.PrimitiveTopology = PrimitiveTopology.TriangleStrip;
         pipelineDescription.BlendState = BlendStateDescription.SingleOverrideBlend;
         pipelineDescription.DepthStencilState = new DepthStencilStateDescription(
             depthTestEnabled: true,
@@ -106,6 +105,7 @@ public class GameApplication : Application<GameApplication>
             depthClipEnabled: true,
             scissorTestEnabled: false
         );
+        pipelineDescription.PrimitiveTopology = PrimitiveTopology.TriangleStrip;
         pipelineDescription.ResourceLayouts = System.Array.Empty<ResourceLayout>();
         pipelineDescription.ShaderSet = new ShaderSetDescription(
             vertexLayouts: new VertexLayoutDescription[] { vertexLayout },
