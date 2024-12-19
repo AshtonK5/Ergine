@@ -92,6 +92,7 @@ public class GameApplication : Application<GameApplication>
         );
 
         GraphicsPipelineDescription pipelineDescription = new GraphicsPipelineDescription();
+        pipelineDescription.PrimitiveTopology = PrimitiveTopology.TriangleStrip;
         pipelineDescription.BlendState = BlendStateDescription.SingleOverrideBlend;
         pipelineDescription.DepthStencilState = new DepthStencilStateDescription(
             depthTestEnabled: true,
