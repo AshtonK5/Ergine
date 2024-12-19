@@ -1,7 +1,7 @@
 ﻿
 namespace Ergine.Core
 {
-    public class Application<T>
+    public abstract class Application<T> : Window
         where T : class, new()
     {
         private static T? m_Application;
@@ -12,7 +12,13 @@ namespace Ergine.Core
             private set;
         } = m_Application;
 
-        internal static void Init()
+        public Application()
+        {
+            WindowContext.Closed += Shutdown;
+
+        }
+
+        public static void Init()
         {
             if (m_Application == null)
                 m_Application = new T();

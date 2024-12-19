@@ -427,7 +427,7 @@
           "lib/netstandard1.6/System.Linq.Expressions.dll": {}
         }
       },
-      "System.Numerics.Vectors/4.4.0": {
+      "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
           "ref/netcoreapp2.0/_._": {}
@@ -900,12 +900,12 @@
           }
         }
       },
-      "Veldrid.SDL2/4.5.0": {
+      "Veldrid.SDL2/4.9.0": {
         "type": "package",
         "dependencies": {
-          "NativeLibraryLoader": "1.0.10",
-          "System.Numerics.Vectors": "4.4.0",
-          "System.Runtime.CompilerServices.Unsafe": "4.4.0"
+          "NativeLibraryLoader": "1.0.13",
+          "System.Numerics.Vectors": "4.5.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.0"
         },
         "compile": {
           "lib/netstandard2.0/Veldrid.SDL2.dll": {
@@ -929,6 +929,58 @@
           "runtimes/win-x86/native/SDL2.dll": {
             "assetType": "native",
             "rid": "win-x86"
+          }
+        }
+      },
+      "Veldrid.SPIRV/1.0.15": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+          "Veldrid": "4.8.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Veldrid.SPIRV.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Veldrid.SPIRV.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libveldrid-spirv.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx/native/libveldrid-spirv.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/win-x64/native/libveldrid-spirv.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/libveldrid-spirv.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "Veldrid.StartupUtilities/4.9.0": {
+        "type": "package",
+        "dependencies": {
+          "Veldrid": "4.9.0",
+          "Veldrid.SDL2": "4.9.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Veldrid.StartupUtilities.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Veldrid.StartupUtilities.dll": {
+            "related": ".pdb"
           }
         }
       },
@@ -2032,10 +2084,10 @@
         "system.linq.expressions.nuspec"
       ]
     },
-    "System.Numerics.Vectors/4.4.0": {
-      "sha512": "UiLzLW+Lw6HLed1Hcg+8jSRttrbuXv7DANVj0DkL9g6EnnzbL75EB7EWsw5uRbhxd/4YdG8li5XizGWepmG3PQ==",
+    "System.Numerics.Vectors/4.5.0": {
+      "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "type": "package",
-      "path": "system.numerics.vectors/4.4.0",
+      "path": "system.numerics.vectors/4.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2052,12 +2104,15 @@
         "lib/netstandard2.0/System.Numerics.Vectors.xml",
         "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.dll",
         "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.xml",
+        "lib/uap10.0.16299/_._",
         "lib/xamarinios10/_._",
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
+        "ref/net45/System.Numerics.Vectors.dll",
+        "ref/net45/System.Numerics.Vectors.xml",
         "ref/net46/System.Numerics.Vectors.dll",
         "ref/net46/System.Numerics.Vectors.xml",
         "ref/netcoreapp2.0/_._",
@@ -2065,11 +2120,12 @@
         "ref/netstandard1.0/System.Numerics.Vectors.xml",
         "ref/netstandard2.0/System.Numerics.Vectors.dll",
         "ref/netstandard2.0/System.Numerics.Vectors.xml",
+        "ref/uap10.0.16299/_._",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "system.numerics.vectors.4.4.0.nupkg.sha512",
+        "system.numerics.vectors.4.5.0.nupkg.sha512",
         "system.numerics.vectors.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -3553,10 +3609,10 @@
         "veldrid.openglbindings.nuspec"
       ]
     },
-    "Veldrid.SDL2/4.5.0": {
-      "sha512": "pAzTlbg0jb32nUPDv3HLBgWWG5AUXX5YFoN5qrPtJP5Cr4PafrF67p5rrtb84TdFtCgCYpunCHXtyqqUwYjiIg==",
+    "Veldrid.SDL2/4.9.0": {
+      "sha512": "uE0sYIzNOF2DPokzjRel2to3euBRikLfgoxx0f7iQVevbDDYlg0e/DBgG+tDhyNQWrB+ttKaQvR/csoa/R8UmA==",
       "type": "package",
-      "path": "veldrid.sdl2/4.5.0",
+      "path": "veldrid.sdl2/4.9.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3567,8 +3623,46 @@
         "runtimes/osx-x64/native/libsdl2.dylib",
         "runtimes/win-x64/native/SDL2.dll",
         "runtimes/win-x86/native/SDL2.dll",
-        "veldrid.sdl2.4.5.0.nupkg.sha512",
+        "veldrid.sdl2.4.9.0.nupkg.sha512",
         "veldrid.sdl2.nuspec"
+      ]
+    },
+    "Veldrid.SPIRV/1.0.15": {
+      "sha512": "hzupRH5uGibW8P/URwTFX1lDEmi1LWZKWf0euQyfS0FKVDI2gGDTB5ucq6JViG8Bk6U7Q2s1EsTXIDfXpu0oVQ==",
+      "type": "package",
+      "path": "veldrid.spirv/1.0.15",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MonoAndroid10/Veldrid.SPIRV.targets",
+        "build/MonoAndroid10/native/arm64-v8a/libveldrid-spirv.so",
+        "build/MonoAndroid10/native/armeabi-v7a/libveldrid-spirv.so",
+        "build/MonoAndroid10/native/x86_64/libveldrid-spirv.so",
+        "build/Xamarin.iOS10/Veldrid.SPIRV.dll.config",
+        "build/Xamarin.iOS10/Veldrid.SPIRV.targets",
+        "build/Xamarin.iOS10/native/libveldrid-spirv-combined.a",
+        "build/net40/Veldrid.SPIRV.targets",
+        "lib/netstandard2.0/Veldrid.SPIRV.dll",
+        "lib/netstandard2.0/Veldrid.SPIRV.xml",
+        "runtimes/linux-x64/native/libveldrid-spirv.so",
+        "runtimes/osx/native/libveldrid-spirv.dylib",
+        "runtimes/win-x64/native/libveldrid-spirv.dll",
+        "runtimes/win-x86/native/libveldrid-spirv.dll",
+        "veldrid.spirv.1.0.15.nupkg.sha512",
+        "veldrid.spirv.nuspec"
+      ]
+    },
+    "Veldrid.StartupUtilities/4.9.0": {
+      "sha512": "45JrS5GajAaoom0HJWtPzYgJlNo8tpXB06mJM4hWxdeBxo3y2OIJIfnnB374KB1d7euodW0XneRzKVhwzZFE5g==",
+      "type": "package",
+      "path": "veldrid.startuputilities/4.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Veldrid.StartupUtilities.dll",
+        "lib/netstandard2.0/Veldrid.StartupUtilities.pdb",
+        "veldrid.startuputilities.4.9.0.nupkg.sha512",
+        "veldrid.startuputilities.nuspec"
       ]
     },
     "Vk/1.0.25": {
@@ -3695,7 +3789,9 @@
   "projectFileDependencyGroups": {
     "net9.0": [
       "Veldrid >= 4.9.0",
-      "Veldrid.ImGui >= 5.72.0"
+      "Veldrid.ImGui >= 5.72.0",
+      "Veldrid.SPIRV >= 1.0.15",
+      "Veldrid.StartupUtilities >= 4.9.0"
     ]
   },
   "packageFolders": {
@@ -3725,6 +3821,7 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Users\\ashto\\AppData\\Local\\Stride\\NugetDev": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3756,6 +3853,14 @@
           "Veldrid.ImGui": {
             "target": "Package",
             "version": "[5.72.0, )"
+          },
+          "Veldrid.SPIRV": {
+            "target": "Package",
+            "version": "[1.0.15, )"
+          },
+          "Veldrid.StartupUtilities": {
+            "target": "Package",
+            "version": "[4.9.0, )"
           }
         },
         "imports": [

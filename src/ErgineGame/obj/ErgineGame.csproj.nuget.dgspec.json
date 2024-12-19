@@ -27,6 +27,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\ashto\\AppData\\Local\\Stride\\NugetDev": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -58,6 +59,14 @@
             "Veldrid.ImGui": {
               "target": "Package",
               "version": "[5.72.0, )"
+            },
+            "Veldrid.SPIRV": {
+              "target": "Package",
+              "version": "[1.0.15, )"
+            },
+            "Veldrid.StartupUtilities": {
+              "target": "Package",
+              "version": "[4.9.0, )"
             }
           },
           "imports": [
@@ -103,6 +112,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\ashto\\AppData\\Local\\Stride\\NugetDev": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

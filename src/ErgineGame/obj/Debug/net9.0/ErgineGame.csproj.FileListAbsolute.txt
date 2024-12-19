@@ -4,14 +4,14 @@ C:\Users\ashto\dev\projects\cs\Ergine\src\ErgineGame\obj\Debug\net9.0\ErgineGame
 C:\Users\ashto\dev\projects\cs\Ergine\src\ErgineGame\obj\Debug\net9.0\ErgineGame.AssemblyInfo.cs
 C:\Users\ashto\dev\projects\cs\Ergine\src\ErgineGame\obj\Debug\net9.0\ErgineGame.csproj.CoreCompileInputs.cache
 C:\Users\ashto\dev\projects\cs\Ergine\src\ErgineGame\obj\Debug\net9.0\ErgineGame.sourcelink.json
-C:\Users\ashto\dev\projects\cs\Ergine\binaries\Debug\net9.0\ErgineGame.exe
 C:\Users\ashto\dev\projects\cs\Ergine\binaries\Debug\net9.0\ErgineGame.deps.json
-C:\Users\ashto\dev\projects\cs\Ergine\binaries\Debug\net9.0\ErgineGame.runtimeconfig.json
 C:\Users\ashto\dev\projects\cs\Ergine\binaries\Debug\net9.0\ErgineGame.dll
 C:\Users\ashto\dev\projects\cs\Ergine\binaries\Debug\net9.0\ErgineGame.pdb
 C:\Users\ashto\dev\projects\cs\Ergine\src\ErgineGame\obj\Debug\net9.0\ErgineGame.csproj.Up2Date
 C:\Users\ashto\dev\projects\cs\Ergine\src\ErgineGame\obj\Debug\net9.0\ErgineGame.dll
 C:\Users\ashto\dev\projects\cs\Ergine\src\ErgineGame\obj\Debug\net9.0\refint\ErgineGame.dll
 C:\Users\ashto\dev\projects\cs\Ergine\src\ErgineGame\obj\Debug\net9.0\ErgineGame.pdb
-C:\Users\ashto\dev\projects\cs\Ergine\src\ErgineGame\obj\Debug\net9.0\ErgineGame.genruntimeconfig.cache
 C:\Users\ashto\dev\projects\cs\Ergine\src\ErgineGame\obj\Debug\net9.0\ref\ErgineGame.dll
+C:\Users\ashto\dev\projects\cs\Ergine\binaries\Debug\net9.0\ErgineGame.exe
+C:\Users\ashto\dev\projects\cs\Ergine\binaries\Debug\net9.0\ErgineGame.runtimeconfig.json
+C:\Users\ashto\dev\projects\cs\Ergine\src\ErgineGame\obj\Debug\net9.0\ErgineGame.genruntimeconfig.cache
