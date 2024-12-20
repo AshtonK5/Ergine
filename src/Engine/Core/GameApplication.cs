@@ -48,7 +48,7 @@ public class GameApplication : Application<GameApplication>
     protected override void OnShown()
     {
         CreateResources();
-
+        
     }
 
     public void CreateResources()
