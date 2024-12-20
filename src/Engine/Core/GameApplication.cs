@@ -115,7 +115,6 @@ public class GameApplication : Application<GameApplication>
         m_Pipeline = resourceFactory.CreateGraphicsPipeline(pipelineDescription);
 
         m_CL = resourceFactory.CreateCommandList();
-
     }
 
     protected override void OnRender()
@@ -135,16 +134,19 @@ public class GameApplication : Application<GameApplication>
             m_CL.SetVertexBuffer(0, m_VertexBuffer);
             m_CL.SetIndexBuffer(m_IndexBuffer, IndexFormat.UInt16);
             m_CL.SetPipeline(m_Pipeline);
+
             m_CL.DrawIndexed(
-                indexCount: 4,
-                instanceCount: 1,
-                indexStart: 0,
-                vertexOffset: 0,
-                instanceStart: 0
-            );
+                    indexCount: 4,
+                    instanceCount: 1,
+                    indexStart: 0,
+                    vertexOffset: 0,
+                    instanceStart: 0
+                );
+
+            GraphicsDevice.SwapBuffers();
+
             m_CL.End();
             GraphicsDevice.SubmitCommands(m_CL);
-            GraphicsDevice.SwapBuffers();
         }
     }
 

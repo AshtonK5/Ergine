@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ErgineGame")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7f55d334e8ca3e9d5b8dfdf8af23e05aa4cca1d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+679db24c1105f6a8ea52ecef1abfd1f93b2a815a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ErgineGame")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ErgineGame")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
